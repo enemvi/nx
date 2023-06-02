@@ -6,6 +6,8 @@ export default {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'html'],
   maxWorkers: 1,
   globals: {},
+  globalSetup: '<rootDir>/global-setup.ts',
+  globalTeardown: '<rootDir>/global-teardown.ts',
   displayName: 'e2e-detox',
   testTimeout: 600000,
   preset: '../../jest.preset.js',

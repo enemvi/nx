@@ -129,18 +129,7 @@
         }
       ],
       "options": {
-        "commands": [
-          {
-            "command": "pnpm e2e-start-local-registry"
-          },
-          {
-            "command": "pnpm e2e-build-package-publish"
-          },
-          {
-            "command": "nx run-e2e-tests {projectName}"
-          }
-        ],
-        "parallel": false
+        "commands": ["nx run-e2e-tests {projectName}"]
       }
     },
     "e2e-macos": {
@@ -159,18 +148,7 @@
         }
       ],
       "options": {
-        "commands": [
-          {
-            "command": "pnpm e2e-start-local-registry"
-          },
-          {
-            "command": "pnpm e2e-build-package-publish"
-          },
-          {
-            "command": "nx run-e2e-tests {projectName}"
-          }
-        ],
-        "parallel": false
+        "commands": ["nx run-e2e-tests {projectName}"]
       }
     },
     "e2e-base": {

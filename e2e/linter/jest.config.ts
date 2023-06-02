@@ -6,6 +6,8 @@ export default {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'html'],
   maxWorkers: 1,
   globals: {},
+  globalSetup: '<rootDir>/global-setup.ts',
+  globalTeardown: '<rootDir>/global-teardown.ts',
   displayName: 'e2e-linter',
   preset: '../../jest.preset.js',
 };
